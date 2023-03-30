@@ -5,7 +5,7 @@ const navBarObj=[{"/":" Home"},
                 {"/dil":"Dil"},
                 {"/profil":"Profili"}];
 
-const keys= Object.keys(c);
-keys.forEach(key => {
-  navBar.append(`li: a(href="${key}") ${c[key]}`)
+navBarObj.forEach((c)=>{
+  const keys=Object.keys(c);
+  navBar.innerHTML+=`<li> <a href=${keys}> ${c[keys]}</a></li>`
 });
