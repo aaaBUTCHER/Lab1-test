@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script src="js/1.js"></script>
+	<title>User Profile</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	
+	<!-- HTML code -->
+	<button id="myButton" onclick="openPopup()">Click me</button>
+
+<!-- Popup container -->
+<div id="myPopup" class="popup">
+  <div class="popup-content">
+    <h2>User Information</h2>
+    <form>
+		<img class="profile-image" src="img/2.png" alt="Profile Image">
+		<input type="file" accept="image/*">
+
+
+      <label for="bio"></label>
+      <textarea id="bio" rows="4" placeholder="Bio"></textarea>
+
+	  <label for="user id"></label>
+      <input type="text" id="user id" placeholder="User Id">
+	  
+	  <label for="emri"></label>
+      <input type="text" id="emri" placeholder="Emri">
+
+      <label for="mbiemri"></label>
+      <input type="text" id="mbiemri" placeholder="Mbiemri">
+
+      <label for="Email"></label>
+      <input type="email" id="Email" placeholder="Email">
+
+      <label for="paswordi"></label>
+      <input type="password" id="aswordi" placeholder="Paswordi">
+
+      <label for="adresa"></label>
+      <input type="text" id="adresa" placeholder="Adresa">
+
+      <button class="close-button" onclick="closePopup()">Close</button>
+    </form>
+  </div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+/*
+        nav#navbar
+            - const o = {'home': 'homepage', 'books': 'librat'}
+            each val, key in o
+                ul.navlist 
+                li #[a(href=`#${key}`) #{val}]
+        */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #222;
+  color: white;
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar-logo-container, .navbar-menu-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo-container {
+  background-color: #333;
+  padding: 10px;
+  margin-right: 20px;
+}
+
+.navbar-logo {
+  background-image: url('../img/logo.png.jpg');
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  width: 50px;
+  margin-right: 10px;
+}
+
+.navbar-menu-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navbar-menu li {
+  margin-right: 20px;
+}
+
+.navbar-menu li a {
+  color: white;
+  text-decoration: none;
+  transition: all 0.2s ease-in-out;
+}
+
+.navbar-menu li a:hover {
+  color: #ccc;
+}
+
+.navbar-shopping-bag {
+  font-size: 24px;
+  margin-left: 20px;
+}
+
+.navbar-shopping-bag a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-shopping-bag a:hover {
+  color: #ccc;
+}
+
+.fa-shopping-bag:before {
+  content: "\f290";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+}

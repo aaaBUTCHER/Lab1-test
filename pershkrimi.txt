@@ -1,0 +1,93 @@
+Bibloteka -- 
+
+	Bibloteka do te jet nje WebAplikacion ne te cilin ne mund te blejm libra dhe ti lexojm online,
+	Perdoruesi duhet te ket nje llogari per te pasur qasje ne aplikacion,
+	Aplikacioni do te ket 2 role : Administratorin dhe Perdoruesin e Zakonshem(KLIENTIN),
+		Privilegjet e Perdoruesit te Zakonshem(KLIENTIT) jan :
+			*Shfelton te gjitha librat publike qe gjenden ne aplikacion,
+			*Te blej librat qe gjenden ne stok,
+			*Te komentoj ne postimet e librave,
+			*Ta krijoj, editoj, fshij profilin e tij,
+		Privilegjet e Administratorit jan :
+			*Shfelton te gjitha librat publike qe gjenden ne aplikacion,
+			*Te blej librat qe gjenden ne stok,
+			*Te komentoj ne postimet e librave,
+			*Ta krijoj, editoj, fshij profilin e tij,
+			*Te krijoj libra ose fshij libra,
+			*Te editoj postimet e librave
+			*Te shikoj listen e perdorueseve qe kan bler librat,
+			*Te fshij usera,
+			*Te fshjij komentete,
+			*Te shtoj liobrat ne stok,
+	Ne faqen kryesore do te shfaqen te gjitha librat ne menyr tabelare, ku secila qeliz do te ket 
+		*Imazhin e kopertines 
+		*Titullin
+		*Autorin 
+		*Zhanrin
+		*Librat duhet te jen te klikueshme
+	Pasi te klikoni nje liber do tju dergoj te posti Librit:
+		*Titullin
+		*Autorin 
+		*ISBN 
+		*Pershkrimi
+		*Zhanri
+		*Butonin Blej
+		*Butoni Lexo
+		*Imazhin e kopertines
+		*Komentet
+	Pasi ta blej librin libri shtohet ne koleksionin e tij private
+	Koleksioni privat do ket ne menyr tabelare listen e librave qe kemi bler
+		*Titullin
+		*Autorin 
+		*Zhanri
+		*Butonin Lexo
+		*Butonin Fshij
+	Eventi lexo ridrejton tek pdf i librit perkates
+	Paneli adminit :
+		*Koleksioni i te gjitha librave ne menyr tabelare
+		*Titullin
+		*Autorin 
+		*Zhanri
+		*Butonin Fshij Librin
+		*Edito postin
+		*Krijo Liber
+	Posti i librave per admin :
+		*Titullin
+		*Autorin 
+		*ISBN 
+		*Pershkrimi
+		*Zhanri
+		*Butonin Edito
+		*Butoni Fshij
+		*Imazhin e kopertines
+		*Fshi Komente
+		*Butonin Shiko Listen e Lexueseve
+	Profili per Klient :
+		*Imazhin e profilit
+		*Emri i perdoruesit
+		*Email 
+		*Butoni Edit(--  mund te edotioj :
+					Imazhin e profilit
+					Emrin e perdoruesit
+					Email
+					PW
+	Profili per Admin :
+		*Imazhin e profilit
+		*Emri i perdoruesit
+		*Email 
+		*Butoni Edit(--  mund te edotioj :
+					Imazhin e profilit
+					Emrin e perdoruesit
+					Email
+					PW
+		*Butoni Lista e Klienteve
+	Lista e Klienteve :
+		*Ne menyr tabelare Klientet
+		*ID e perdoruesit
+		*Emrin e perdoruesit
+		*Emaili i perdoruesit
+		*Butonin Fshij Perdoruesin 
+	
+						
+				
+		
