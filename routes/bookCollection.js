@@ -12,9 +12,8 @@ const dbBooks=[ {id:1, titulli:"Beni ecen nuk vetem", autori:"Fan Noli", img:"/i
 
 const bookCollection=[];
 router.get("/",(req, res)=>{
-    res.render("librat/koleksioniLibra",{titulliIfaqes:"Te gjitha librat", librat: bookCollection, active: true})
+    res.render("librat/koleksioniLibra",{titulliIfaqes:"Te gjitha librat", librat: bookCollection, active: true, isAuthenticated: req.session.isLoggedIn})
 });
-
 
 router.get("/:id",(req, res)=>{
     const id=req.params.id;
